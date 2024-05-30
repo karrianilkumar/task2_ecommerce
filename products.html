@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+        <style>
+        body {
+            background-color:	#E6E6FA;
+        }
+        
+         .main-footer {
+            background-color: #008000; /* Green */
+        }
+    .shop-item-image:hover {
+        transform: scale(1.1); /* Increase the size by 10% */
+    }
+    
+        .shop-item {
+        border: 2px solid black; /* Black border around the entire shop item */
+        display: inline-block; /* Display as inline block to wrap around the image and details */
+        padding: 10px; /* Add padding around the shop item */
+    }
+    
+    .shop-item-image,
+    .shop-item-button {
+        border: 2px solid black; /* Black border around the image and button */
+        display: block; /* Ensure each element takes up the full width available */
+        margin: 10px auto; /* Center the image and button */
+        padding: 5px; /* Add padding around the image and button */
+        text-align: center; /* Center the text inside the button */
+    }
+    
+    .shop-item-image:hover {
+        transform: scale(1.1); /* Increase the size by 10% */
+    }
+
+
+        </style>
+    </head>
+    <body>
+
+        <section class="container content-section">
+            <h2 class="section-header" style="color: red;">ACCESSORIES</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">New mobile</span>
+                    <img class="shop-item-image" src="Images/product-1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Digital watch</span>
+                    <img class="shop-item-image" src="Images/product-2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Digital camera</span>
+                    <img class="shop-item-image" src="Images/product-3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Speaker</span>
+                    <img class="shop-item-image" src="Images/product-4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">Head phones</span>
+                    <img class="shop-item-image" src="Images/product-5.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">Digital TV</span>
+                    <img class="shop-item-image" src="Images/product-6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header" style="color: red;">MENS WEAR</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Shirt</span>
+                    <img class="shop-item-image" src="Images/1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">New model-1</span>
+                    <img class="shop-item-image" src="Images/2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">T-shirt pack</span>
+                    <img class="shop-item-image" src="Images/3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">T-shirt & zene</span>
+                    <img class="shop-item-image" src="Images/4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">Snow jacket</span>
+                    <img class="shop-item-image" src="Images/5.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">fullhands T-shirt</span>
+                    <img class="shop-item-image" src="Images/6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                <div class="shop-item">
+                    <span class="shop-item-title">Banyan</span>
+                    <img class="shop-item-image" src="Images/7.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                                <div class="shop-item">
+                    <span class="shop-item-title">Sports T-shirt</span>
+                    <img class="shop-item-image" src="Images/8.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <section class="container content-section">
+            <h2 class="section-header" style="color: red;">WOMENS WEAR</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="Images/image1.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Uniform</span>
+                    <img class="shop-item-image" src="Images/image2.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                 <div class="shop-item">
+                    <span class="shop-item-title">New model-1</span>
+                    <img class="shop-item-image" src="Images/image3.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                 <div class="shop-item">
+                    <span class="shop-item-title">Police uniform</span>
+                    <img class="shop-item-image" src="Images/image5.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                 <div class="shop-item">
+                    <span class="shop-item-title">New model-2</span>
+                    <img class="shop-item-image" src="Images/image6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                                 <div class="shop-item">
+                    <span class="shop-item-title">New model-3</span>
+                    <img class="shop-item-image" src="Images/image8.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button" style="background-color: orange;">ADD TO CART</button>
+
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        
+        <!-- note below for cart the site should be loaded for that here we are wrting the code of the cart but we don't display here we will display the code the at cart route but for loading purpose we are writting the code here -->
+   <section id="cart-section" class="container content-section" style="display: none;">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Dans</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="/home/rgukt/Desktop/Internpe/week2/task2/Images/Youtube Logo.png"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
